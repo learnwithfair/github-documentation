@@ -35,6 +35,15 @@ Thanks for visiting my GitHub account!
    - It provides Graphical User Interface (GUI)
    - Founded in 2008
 
+
+## One Step Back
+```bash
+cd ../
+```
+
+
+
+  
 ## Repository Upload Command
 
 ```bash
