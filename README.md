@@ -2,9 +2,9 @@
 
 Thanks for visiting my GitHub account!
 
-<img src ="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" height = "200px" width = "180px"/> **GitHub** is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. [more](https://www.w3schools.com/css/)
+<img src ="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" height = "200px" width = "200px"/> **GitHub** is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. [more](https://www.w3schools.com/css/)
 
-[Code-Example](https://github.com/learnwithfair/github)
+### [Code-Example](https://github.com/learnwithfair/github)
 
 ## Source Code (Download)
 
@@ -19,7 +19,7 @@ Thanks for visiting my GitHub account!
 |                                       |
 | :-----------------------------------: |
 |             Git & Github              |
-| ![roadmap](images/git and github.png) |
+| ![roadmap](images/git%20and%20github.png) |
 
 1. git?
    - git is a version control software
