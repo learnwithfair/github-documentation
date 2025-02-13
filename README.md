@@ -63,6 +63,14 @@ git remote add origin https://github.com/learnwithfair/laravel-restaurant.git
 git branch -M main
 git push -u origin main
 
+### If fetch any error then try as-
+```bash
+git branch --set-upstream-to=origin/main main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+```
+
+
 
 ##########
 to check brance -> git brance -a
