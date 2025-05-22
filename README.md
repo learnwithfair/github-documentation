@@ -78,7 +78,140 @@ Change Brance git checkout branceName
 more details -> git cheat sheet
 
 ```
+## Option A
+# 🛠️ GitHub CLI Setup Guide for Windows 11
 
+This guide explains how to install, configure, and use the GitHub CLI (`gh`) on Windows 11, including authentication and cloning private repositories.
+
+---
+
+## ✅ 1. What is GitHub CLI?
+
+The GitHub CLI (`gh`) lets you use GitHub features like:
+- Cloning repositories
+- Creating issues and pull requests
+- Authenticating with GitHub
+- Managing your projects
+
+It works directly from the command line or terminal inside VS Code.
+
+---
+
+## ✅ 2. Install GitHub CLI on Windows 11
+
+### 🔹 Step 1: Download the Installer
+
+- Visit: [https://cli.github.com/](https://cli.github.com/)
+- Click on **Windows** to download the `.msi` installer.
+
+Direct link: https://github.com/cli/cli/releases/latest
+
+### 🔹 Step 2: Run the Installer
+
+- Open the downloaded `.msi` file.
+- Proceed with **default settings**.
+- Finish installation.
+
+---
+
+## ✅ 3. Verify Installation
+
+Open **Command Prompt** or **VS Code Terminal** and run:
+
+```bash
+gh --version
+```
+
+You should see something like:
+
+```bash
+gh version 2.50.0 (2025-05-22)
+```
+
+---
+
+## ✅ 4. Authenticate with GitHub
+
+Run the login command:
+
+```bash
+gh auth login
+```
+
+You’ll be prompted to:
+- Choose GitHub.com
+- Choose `HTTPS`
+- Authenticate in browser
+
+Follow the instructions → copy the URL → paste into browser → login with GitHub → authorize the CLI.
+
+If successful, you’ll see:
+
+```bash
+✓ Logged in as learnwithfair
+```
+
+---
+
+## ✅ 5. Clone a GitHub Repo
+
+You can now clone any public or private repository (if you have access):
+
+```bash
+gh repo clone learnwithfair/Carento-customization
+```
+
+---
+
+## ✅ 6. List Your Repositories
+
+```bash
+gh repo list
+```
+
+Example output:
+
+```bash
+learnwithfair/awesome-project           Public
+learnwithfair/top-secret-project        Private
+```
+
+---
+
+## ✅ 7. More Useful Commands
+
+| Command            | Description                                |
+|--------------------|--------------------------------------------|
+| `gh repo view`     | View current repo info                     |
+| `gh repo fork`     | Fork a repository                          |
+| `gh pr create`     | Create a new pull request                  |
+| `gh issue list`    | List all issues in the current repo        |
+| `gh repo create`   | Create a new GitHub repo from the CLI      |
+| `gh auth logout`   | Logout from GitHub                         |
+
+---
+
+## 🧠 Tip
+
+If you're a **collaborator on a private repo**, `gh` is the easiest way to clone and work with it — no need to handle tokens or SSH manually.
+
+---
+
+## ✅ Uninstalling (Optional)
+
+To uninstall:
+- Open **Control Panel → Programs → Uninstall a Program**
+- Select **GitHub CLI** and click Uninstall
+
+---
+
+## 📌 Done!
+
+You're now ready to manage GitHub from your terminal like a pro 🚀
+
+
+
+## Option B
 ### [Lesson 3. How to set git environment and configuration](https://youtu.be/vj5-nkhTRbo)
 
 - create a GitHub account
