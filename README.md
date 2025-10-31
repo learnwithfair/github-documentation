@@ -86,6 +86,12 @@ to check brance -> git brance -a
 Change Brance git checkout branceName
 more details -> git cheat sheet
 
+
+#### In you want to push same code within multiple Repo
+git remote set-url --add --push origin {new_url}
+git remote -v
+git remote set-url --add --push origin {old_url}
+git remote -v
 ```
 ## Option A
 # 🛠️ GitHub CLI Setup Guide for Windows 11
