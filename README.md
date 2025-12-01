@@ -93,6 +93,42 @@ git remote -v
 git remote set-url --add --push origin {old_url}
 git remote -v
 ```
+
+
+# **Quick Git Cleanup (Remove Large File)**
+
+```bash
+# Check commits containing the large file
+git log --all -- largeFilename
+
+# Soft reset last 1–2 commits (keeps changes staged)
+git reset --soft HEAD~2
+
+# Unstage the large file
+git reset largeFilename
+
+# Stage other changes and commit
+git add .
+git commit -m "Clean commit without large file"
+
+# Pull latest remote changes
+git pull origin main
+
+# Force push cleaned branch
+git push origin rahat --force
+```
+
+✅ **Tips:**
+
+* Replace `HEAD~2` with the number of commits containing the large file.
+* Use `git log --all -- source.zip` to verify it’s gone.
+* For future large files, consider **Git LFS**.
+
+---
+
+
+
+
 ## Option A
 # 🛠️ GitHub CLI Setup Guide for Windows 11
 
